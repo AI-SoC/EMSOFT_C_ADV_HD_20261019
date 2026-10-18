@@ -1,0 +1,2 @@
+
+void decrement(int a);
