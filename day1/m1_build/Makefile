@@ -20,7 +20,7 @@ main: main.o hyundai.o
 	gcc main.o hyundai.o  -o main
 
 all: main
-	./main
+	main
 
 dump: 
 	objdump -d -S main > main_dis.S
@@ -30,4 +30,4 @@ rebuild:
 	make all
 	
 clean:
-	rm *.o *.s main
+	del *.o *.s main
