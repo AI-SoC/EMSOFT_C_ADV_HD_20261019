@@ -37,4 +37,4 @@ gdb:
 	run_gdb.bat
 
 clean:
-	rm *.o *.d *.elf *.bin *.map
+	del *.o *.d *.elf *.bin *.map
